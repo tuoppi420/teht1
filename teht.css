@@ -1,0 +1,89 @@
+html {
+    background-color: rgb(54, 54, 54);
+    
+}
+label {
+font-size: 40px;
+color: ivory;
+}
+.pl {
+    display: grid;
+    float: left;
+    min-height: 30vh;
+    grid-template-rows: minmax(10px, auto) repeat(3, 70px);
+}
+.pl > button {
+    cursor: pointer;
+    font-size: 2rem;
+    border: 1px solid black;
+    outline: none;
+    background-color: lightblue;
+}
+.pl > button:hover {
+    background-color: rgb(82, 143, 163);
+}
+.pl2 {
+    display: grid;
+    float: left;
+    min-height: 10vh;
+    grid-template-rows: minmax(50px, auto) repeat(5, 50px);
+}
+.pl2 > button {
+    cursor: pointer;
+    font-size: 2rem;
+    border: 1px solid black;
+    outline: none;
+    background-color: lightblue;
+}
+.pl2 > button:hover {
+    background-color: rgb(82, 143, 163);
+}
+.pl3 {
+    display: grid;
+    float: right;
+    min-height: 30vh;
+    grid-template-rows: minmax(50px, auto) repeat(3, 50px);
+}
+.pl3 > button {
+    cursor: pointer;
+    font-size: 2rem;
+    border: 1px solid black;
+    outline: none;
+    background-color: lightblue;
+}
+.pl3 > button:hover {
+    background-color: rgb(82, 143, 163);
+}
+.pl4 {
+    display: grid;
+    float: right;
+    min-height: 30vh;
+    grid-template-rows: minmax(50px, auto) repeat(3, 50px);
+}
+.pl4 > button {
+    cursor: pointer;
+    font-size: 2rem;
+    border: 1px solid black;
+    outline: none;
+    background-color: lightblue;
+}
+.pl4 > button:hover {
+    background-color: rgb(82, 143, 163);
+}
+.pl5 {
+    display: grid;
+    justify-content: left;
+    align-content: center;
+    min-height: 30vh;
+    grid-template-rows: minmax(50px, auto) repeat(3, 50px);
+}
+.pl5 > button {
+    cursor: pointer;
+    font-size: 2rem;
+    border: 1px solid black;
+    outline: none;
+    background-color: lightblue;
+}
+.pl5 > button:hover {
+    background-color: rgb(82, 143, 163);
+}

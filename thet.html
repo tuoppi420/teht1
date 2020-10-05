@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="teht.js"></script>
+    <link rel="stylesheet" href="teht.css">
+    <title>teht</title>
+</head>
+<body>
+    <label for="ju" id="jo">järjestä</label>
+    <form id="ju" method="POST">
+        <div class="pl">
+    
+    <input placeholder="eka numero" id="in1" type="number">
+    <input placeholder="toka numero" id="in2" type="number">
+    <input placeholder="kolmas numero" id="in3" type="number">
+    
+    <button id="na1" type="submit" onclick="jarjesta()">järestä</button>
+   </div>
+   <div class="pl2">
+       <label id="jo2" for="pl2">etsi suurin luku</label>
+    <input placeholder="num1" id="num1" type="number">
+    <input placeholder="num2" id="num2" type="number">
+    <input placeholder="num3" id="num3" type="number">
+    <input placeholder="num4" id="num4" type="number">
+    <input placeholder="num5" id="num5" type="number">
+    <button id="na2" type="submit" onclick="lakse()">laske</button>
+</div>
+<div class="pl3">
+    <label for="pl3" id="jo3">parillinen vai pariton</label>
+    <input placeholder="anna luku" id="pa" type="number">
+    <button id="na3" type="submit" onclick="par()">tarkista</button>
+</div>
+<div class="pl4">
+    <label for="pl4" id="jo4">saan ajaa</label>
+    <input placeholder="anna ikä" id="ika1" type="number">
+    <button id="na4" type="submit" onclick="ika()">tarkista</button>
+</div>
+<div class="pl5">
+    <label for="pl5">valitse kieli</label>
+    <select class id="kieli1">
+        <option value="eng">Englanti</option>
+        <option value="swe">Ruotsi</option>
+        <option value="esp">Espanja</option>
+    </select>
+    <button id="na5" type="submit" onclick="kieli()">käännä</button>
+</div>
+</form>
+
+</body>
+</html>
